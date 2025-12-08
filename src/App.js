@@ -1,12 +1,17 @@
 
 import './App.css';
 import Navbar from './components/Navbar';
+import Textform from './components/Textform';
 
-function App(props) {
+function App() {
   return (
-    <div className="App">
-      <Navbar/>
-    </div>
+    <>
+      <Navbar title="Text Utils" about="About Us"/>
+      <div className='container'>
+      <Textform heading="Enter Your Text Below"/>
+      </div>
+    
+    </>
   );
 }
 
